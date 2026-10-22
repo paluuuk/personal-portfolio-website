@@ -15,8 +15,8 @@ The dependency set includes Chakra UI, Emotion, Framer Motion, React Bootstrap, 
 ## Local development
 
 ```bash
-git clone https://github.com/paluuuk/portfolio.git
-cd portfolio
+git clone https://github.com/paluuuk/personal-portfolio-website.git
+cd personal-portfolio-website
 yarn install --frozen-lockfile
 yarn start
 ```
