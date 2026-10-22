@@ -1,31 +1,35 @@
-![Portfolio preview](hero.png)
+# Personal Portfolio Website
 
-# Personal Portfolio
+A React 18 portfolio site presenting software, data, and engineering projects, with Chakra UI components, animation, and Markdown rendering.
 
-Personal portfolio website built with **React** and **Chakra UI** to showcase my software engineering, AI/ML, data, and aerospace projects.
+## Implementation
 
-**Live site:** https://paluk-portfolio.netlify.app/
+- `src/`: React application source.
+- `public/`: static web assets.
+- `package.json`: Create React App development, build, and test commands.
+- `yarn.lock`: the repository's dependency lockfile.
+- `build/`: a committed build artifact from the original project.
 
-## Tech Stack
+The dependency set includes Chakra UI, Emotion, Framer Motion, React Bootstrap, and Markdown rendering utilities.
 
-- React
-- Chakra UI
-- JavaScript
-- Netlify
-
-## Run Locally
+## Local development
 
 ```bash
-yarn install
+git clone https://github.com/paluuuk/portfolio.git
+cd portfolio
+yarn install --frozen-lockfile
 yarn start
 ```
 
-The development server runs at `http://localhost:3000`.
+The development server uses port 3000 by default.
 
-## Production Build
+## Build and checks
 
 ```bash
 yarn build
+yarn test --watchAll=false
 ```
 
-The generated static site is deployed to Netlify.
+These are the scripts defined by the project; this documentation update does not claim a new deployment or a freshly passing browser test suite. The toolchain is the repository's existing `react-scripts` 5 setup, so runtime compatibility should be checked before upgrading dependencies.
+
+For the current curated project overview, start at [my GitHub profile](https://github.com/paluuuk).
